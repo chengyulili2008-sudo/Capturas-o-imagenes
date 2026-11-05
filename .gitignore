@@ -22,4 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-#Las carpetas node_modules/ y dist/ se suelen excluir porque contienen archivos generados automáticamente que no forman parte del código fuente original.
+#
+Las carpetas node_modules/ y dist/ se suelen excluir porque contienen archivos generados automáticamente que no forman parte del código fuente original.
