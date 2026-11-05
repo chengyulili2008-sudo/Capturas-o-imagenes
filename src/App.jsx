@@ -3,13 +3,17 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import confetti from 'canvas-confetti' // <--- ¡Importante: no olvides esta línea arriba!
+import confetti from 'canvas-confetti'
+import PlanetScene from './PlanetScene' // <--- 1. Importamos el componente 3D de fondo
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      {/* 2. Colocamos la escena 3D al principio para que actúe de fondo */}
+      <PlanetScene />
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
