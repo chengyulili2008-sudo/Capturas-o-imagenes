@@ -1,16 +1,24 @@
-# React + Vite
+# Práctica de React, Git y Three.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Proyecto desarrollado con React y Vite que incluye una escena 3D interactiva de fondo, integración de efectos con confetti y gestión de ramas en Git.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Capturas de pantalla
 
-## React Compiler
+### 1. Escena 3D de fondo
+![Escena 3D](capturas/hola.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Efecto Confetti
+![Confetti](capturas/confetti.png)
 
-## Expanding the Oxlint configuration
+### 3. Vista General
+![Vista General](capturas/general.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+Pregunta 
+
+**Si la carpeta `node_modules/` está excluida, ¿borrar una dependencia hace alguna acción sobre el repositorio? ¿Cuál?**
+
+** Sí. Aunque la carpeta `node_modules/` no se incluye en el repositorio (gracias al archivo `.gitignore`), al ejecutar `npm uninstall <nombre>` se modifican los archivos **`package.json`** y **`package-lock.json`**. 
+
